@@ -1,15 +1,10 @@
 import React from 'react';
-// import { NavigationContainer } from '@react-navigation/native';
-// import { createStackNavigator } from '@react-navigation/stack';
-// import App from './App';
-// import FormScreen from './FormScreen'
-
 import { Text, View, Image } from 'react-native';
 import styles from './Styles';
 import { Button } from '@rneui/themed';
 import { useNavigation } from '@react-navigation/native';
 
-const AppNavigator = (): JSX.Element => {
+const Home = (): JSX.Element => {
     const navigation = useNavigation();
   
     const navigateToFormScreen = () => {
@@ -26,4 +21,4 @@ const AppNavigator = (): JSX.Element => {
     );
   };
 
-  export default AppNavigator;
+  export default Home;
